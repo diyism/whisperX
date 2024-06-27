@@ -1,3 +1,167 @@
+<p>
+$ whisperx --compute_type int8 --language zh ../sherpa-onnx/sherpa-onnx-kws-zipformer-wenetspeech-3.3M-2024-01-01/test_wavs/4.wav
+$ cat 4.json
+{
+  "segments": [
+    {
+      "start": 0.549,
+      "end": 3.735,
+      "text": "蒋友伯被拍到带着女儿出游",
+      "words": [
+        {
+          "word": "蒋",
+          "start": 0.549,
+          "end": 0.79,
+          "score": 0.919
+        },
+        {
+          "word": "友",
+          "start": 0.79,
+          "end": 1.03,
+          "score": 0.937
+        },
+        {
+          "word": "伯",
+          "start": 1.03,
+          "end": 1.631,
+          "score": 0.99
+        },
+        {
+          "word": "被",
+          "start": 1.631,
+          "end": 1.932,
+          "score": 1.0
+        },
+        {
+          "word": "拍",
+          "start": 1.932,
+          "end": 2.232,
+          "score": 0.999
+        },
+        {
+          "word": "到",
+          "start": 2.232,
+          "end": 2.553,
+          "score": 0.999
+        },
+        {
+          "word": "带",
+          "start": 2.553,
+          "end": 2.733,
+          "score": 0.991
+        },
+        {
+          "word": "着",
+          "start": 2.733,
+          "end": 3.014,
+          "score": 0.992
+        },
+        {
+          "word": "女",
+          "start": 3.014,
+          "end": 3.194,
+          "score": 0.999
+        },
+        {
+          "word": "儿",
+          "start": 3.194,
+          "end": 3.495,
+          "score": 1.0
+        },
+        {
+          "word": "出",
+          "start": 3.495,
+          "end": 3.715,
+          "score": 0.999
+        },
+        {
+          "word": "游",
+          "start": 3.715,
+          "end": 3.735,
+          "score": 0.391
+        }
+      ]
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "蒋",
+      "start": 0.549,
+      "end": 0.79,
+      "score": 0.919
+    },
+    {
+      "word": "友",
+      "start": 0.79,
+      "end": 1.03,
+      "score": 0.937
+    },
+    {
+      "word": "伯",
+      "start": 1.03,
+      "end": 1.631,
+      "score": 0.99
+    },
+    {
+      "word": "被",
+      "start": 1.631,
+      "end": 1.932,
+      "score": 1.0
+    },
+    {
+      "word": "拍",
+      "start": 1.932,
+      "end": 2.232,
+      "score": 0.999
+    },
+    {
+      "word": "到",
+      "start": 2.232,
+      "end": 2.553,
+      "score": 0.999
+    },
+    {
+      "word": "带",
+      "start": 2.553,
+      "end": 2.733,
+      "score": 0.991
+    },
+    {
+      "word": "着",
+      "start": 2.733,
+      "end": 3.014,
+      "score": 0.992
+    },
+    {
+      "word": "女",
+      "start": 3.014,
+      "end": 3.194,
+      "score": 0.999
+    },
+    {
+      "word": "儿",
+      "start": 3.194,
+      "end": 3.495,
+      "score": 1.0
+    },
+    {
+      "word": "出",
+      "start": 3.495,
+      "end": 3.715,
+      "score": 0.999
+    },
+    {
+      "word": "游",
+      "start": 3.715,
+      "end": 3.735,
+      "score": 0.391
+    }
+  ],
+  "language": "zh"
+}
+</p>
+
+
 <h1 align="center">WhisperX</h1>
 
 <p align="center">
