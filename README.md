@@ -1,4 +1,6 @@
 <pre>
+$ pip install -r requirements.txt --upgrade
+  
 $ whisperx --compute_type int8 --language zh ../sherpa-onnx/sherpa-onnx-kws-zipformer-wenetspeech-3.3M-2024-01-01/test_wavs/4.wav
 $ cat 4.json
 {
